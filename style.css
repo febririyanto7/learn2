@@ -1,0 +1,85 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+section {
+    height: 100vh;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    position: fixed;
+    width: 96%;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    font-size: .9rem;
+    color: rgb(65, 65, 65);
+}
+
+.nav-menu ul li a:hover {
+    color: rgb(14, 78, 253);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    background-color: #333;
+}
+
+.left h1 {
+    font-family: 'poppins', sans-serif;
+    color: rgb(14, 78, 253);
+    font-size: 2rem;
+}
+
+.left p {
+    color: grey;
+    font-family: 'poppins', sans-serif;
+    text-align: justify;
+}
+
+.btn {
+    background-color: rgb(14, 78, 253);
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'poppins', sans-serif;
+    box-shadow: 0 4px 50px 0 rgba(62, 114, 255, 0.596);
+}
+
+.button {
+    display: flex;
+    gap: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #333;
+}
+
+.right img {
+    width: 728px;
+    height: 600px;
+}
